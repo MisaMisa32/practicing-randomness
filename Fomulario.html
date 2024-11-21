@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form name="Formulário" method="post" action=""> <!--"<form>" Usamos isso para criar um formulário-->
+        <h3>Nick:</h3> <input type="text" name="Nick">
+        <!--"<input>" é um dos principais elementos de formulário, é possivel criar caixa de texto e outros elementos através do <type>-->
+        <h3>Race:</h3> <input type="text" name="Race"> </br>
+        <br>
+        <h3>Class:</h3>
+        <input type="radio" name="Class" value="Warrior"> <strong>Warrior</strong> </br>
+        <input type="radio" name="Class" value="Soccer"> <strong>Soccer</strong> </br>
+        <input type="radio" name="Class" value="Berserk"> <strong>Berserk</strong> </br>
+        <input type="radio" name="Class" value="Assassin"> <strong>Assassin</strong> </br>
+        <input type="radio" name="Class" value="Bard"> <strong>Bard</strong> </br>
+        <h3>Atribut:</h3>
+        <ul>
+            <li>força 0</li>
+            <li>Magia 0</li>
+            <li>Agilidade 0</li>
+            <li>Sorte 0</li>
+            <li>Inteligência 0</li>
+            <li>Sabedoria 0</li>
+            <li>Tenacidade 0</li>
+        </ul>
+        <input type="url" value="https://youtu.be/WvMf_DcyWbI?si=ZducH01PdFc3zF6y"> Não copie o link </br>
+        </br>
+        </br>
+        <h2>Carros</h2>
+        <input type="checkbox" name="Carros" value="Ferrari" />Ferrari <br />
+        <input type="checkbox" name="Carros" value="Camaro" />Camaro <br />
+        <br> <input name="arquivo" type="file" />
+
+        <form action="pagina.php">
+            <fieldset>
+                <legend>Informação pessoal</legend>
+                Primeiro Nome
+                <br>
+                <input type="text" name="firstname" value="escreva um nome">
+                <br /> ultimo nome:
+                <br>
+                <input type="text" name="lastname" value="escreva um sobrenome">
+                <br />  
+                <br />
+                <input type="submit" value="enviar">
+            </fieldset>
+        </form>
+
+    </form>
+</body>
+
+</html>
+<!--será necessário eu fazer mais modificações aqui, esse arquivo está sujeito a mudanças(editado em 02/11/2024 (20:56PM))-->
